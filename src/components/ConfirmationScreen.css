@@ -1,0 +1,58 @@
+.confirmation-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .confirmation-content {
+    background: rgb(189, 129, 231);
+    padding: 25px;
+    border-radius: 5px;
+    width: 90%;
+    color: black;
+    max-width: 500px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .confirmation-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-param {
+    margin-bottom: 20px;
+  }
+  
+  .transaction-param p {
+    margin: 8px 0;
+  }
+  
+  .transaction-param h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

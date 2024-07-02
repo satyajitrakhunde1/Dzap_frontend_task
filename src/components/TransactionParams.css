@@ -1,0 +1,36 @@
+.transaction-params {
+    padding: 20px;
+  }
+  
+  .route-details {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .route-details h2 {
+    margin-top: 0;
+  }
+  
+  .route-details div {
+    margin-bottom: 10px;
+  }
+  
+  .route-details h3 {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
